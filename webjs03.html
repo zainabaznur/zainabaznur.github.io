@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar JS</title>
+    <script>
+        function makeBlue(){
+            let area_nf = document.getElementById("nf");
+            area_nf.style.backgroundColor = "cyan";
+            area_nf.style.color = "red";
+        }
+        function makeNormal(){
+            let area_nf = document.getElementById("nf");
+            area_nf.style.backgroundColor = "pink";
+            area_nf.style.color = "blue";
+        }
+    </script>
+</head>
+<body>
+    <div id="nf" style="background-color: orange; color: aqua;">
+    onmouseover="makeBlue()">
+         <h1>STT Terpadu Nurul Fikri</h1>
+    </div>
+</body>
+</html>
